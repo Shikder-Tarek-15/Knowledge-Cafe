@@ -20,13 +20,21 @@ function App() {
     setBookmarks(newBookmark)
   }
 
+  const handleRemoveRead =(id)=>{
+    console.log("I am Removed")
+    const readBookmark = bookmarks.filter((item)=> item.id !== id)
+    setBookmarks(readBookmark)
+    // console.log(readBookmark)
+    console.log(id)
+  }
+
 
 
   return (
     <>
       <Header></Header>
       <div className='md:flex container mx-auto'>
-      <Blogs handleReadingTime={handleReadingTime} handleBookmark={handleBookmark}></Blogs>
+      <Blogs handleReadingTime={handleReadingTime} handleRemoveRead={handleRemoveRead} handleBookmark={handleBookmark}></Blogs>
       <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
       </div>
     </>
