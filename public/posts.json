@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "post_time": "12 Mar 2024",
+      "title": "The Power of Meditation",
+      "reading_time": 12,
+      "blog_cover": "https://i.postimg.cc/HxsWd50d/1.jpg",
+      "author_img": "https://i.postimg.cc/CKMdLWY3/boy1.png",
+      "hash_tag": ["meditation", "mindfulness", "wellness"]
+    },
+    {
+      "id": 2,
+      "name": "Bob Johnson",
+      "post_time": "14 Feb 2024",
+      "title": "The Future of Artificial Intelligence",
+      "reading_time": 20,
+      "blog_cover": "https://i.postimg.cc/jq1qYDDY/2.png",
+      "author_img": "https://i.postimg.cc/j5mjc2NT/boy2.jpg",
+      "hash_tag": ["AI", "technology", "future"]
+    },
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "post_time": "21 Feb 2024",
+      "title": "Traveling on a Budget",
+      "reading_time": 15,
+      "blog_cover": "https://i.postimg.cc/1tjSSd5r/3.png",
+      "author_img": "https://i.postimg.cc/XJGjrWPz/girl2.jpg",
+      "hash_tag": ["travel", "budget", "tips"]
+    },
+    {
+      "id": 4,
+      "name": "Diana Clark",
+      "post_time": "31 Feb 2024",
+      "title": "Healthy Eating Habits",
+      "reading_time": 10,
+      "blog_cover": "https://i.postimg.cc/j2nbShD0/4.jpg",
+      "author_img": "https://i.postimg.cc/KYYvyBDF/girl1.jpg",
+      "hash_tag": ["health", "nutrition", "diet"]
+    }
+   
+  ]
+  
